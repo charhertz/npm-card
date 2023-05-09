@@ -2,16 +2,16 @@
   "name": "charhertz",
   "version": "1.0.0",
   "keywords": [],
-  "license": "MIT",
-  "author": "Charlie <hi@charhertz.com> (https://charhertz.com)",
+  "homepage": "https://github.com/charhertz/npm-card#readme",
+  "bugs": {
+    "url": "https://github.com/charhertz/npm-card/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charhertz/npm-card.git"
   },
-  "bugs": {
-    "url": "https://github.com/charhertz/npm-card/issues"
-  },
-  "homepage": "https://github.com/charhertz/npm-card#readme",
+  "license": "MIT",
+  "author": "Charlie <hi@charhertz.com> (https://charhertz.com)",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -20,9 +20,6 @@
   "files": [
     "bin/card.js"
   ],
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -37,5 +34,11 @@
   },
   "devDependencies": {
     "standard": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "@charhertz:registry": "https://npm.pkg.github.com"
   }
 }
