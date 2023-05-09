@@ -37,8 +37,5 @@
   },
   "engines": {
     "node": ">=16.0.0"
-  },
-  "publishConfig": {
-    "@charhertz:registry": "https://npm.pkg.github.com"
   }
 }
