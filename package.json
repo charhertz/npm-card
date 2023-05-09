@@ -1,0 +1,41 @@
+{
+  "name": "charhertz",
+  "version": "0.0.0",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Charlie <hi@charhertz.com> (https://charhertz.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charhertz/npm-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charhertz/npm-card/issues"
+  },
+  "homepage": "https://github.com/charhertz/npm-card#readme",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "charhertz": "./bin/card.js"
+  },
+  "files": [
+    "bin/card.js"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "cfonts": "^3.1.1",
+    "clear": "^0.1.0",
+    "inquirer": "^9.1.5",
+    "kolorist": "^1.8.0",
+    "open": "^9.1.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
